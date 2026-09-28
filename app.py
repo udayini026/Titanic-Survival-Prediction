@@ -73,7 +73,7 @@ def set_background(image_file):
     )
 
 
-set_background("images/titanic.jpg")
+set_background("titanic.jpg")
 
 
 # =========================================================
@@ -81,7 +81,7 @@ set_background("images/titanic.jpg")
 # =========================================================
 
 model = joblib.load(
-    "models/titanic_best_model.pkl"
+    "titanic_best_model.pkl"
 )
 
 
